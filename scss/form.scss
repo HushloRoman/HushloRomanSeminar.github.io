@@ -1,0 +1,129 @@
+#form {
+	height: 720px;
+	width: 540px;
+	min-width: 540px;
+	margin: 0 auto;
+	border: 1px solid $light_gray;
+	margin-top: 90px;
+	padding-top: 26px;
+	padding-left: 42px;
+	padding-right: 48px;
+	padding-bottom: 40px;
+	border-radius: 1px;
+	box-shadow: 0 0 90px $gray;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.form-title {
+	font: 16px 'PTSansNarrowRegular';
+	color: $black;
+}
+.form-line {
+	border-bottom: 3px dashed $light_gray;
+}
+.seminars {
+	font: 16px 'PTSansNarrowRegular';
+	color: $gray_dark;
+}
+.seminar-name {
+	font: 16px 'PTSansNarrowBold';
+	color: $slider_active;
+}
+.seminar-date {
+	font: 16px 'PTSansNarrowRegular';
+	color: $black;
+}
+.form-price-name {
+	font: 16px 'PTSansNarrowRegular';
+	color: $gray_dark;
+}
+.form-price-value {
+	font: 16px 'PTSansNarrowRegular';
+	color: $black;
+}
+.form-price-count input {
+	width: 28px;
+	border: 1px solid $light_gray;
+	border-radius: 2px;
+}
+.form-price-count-text {
+	font: 16px 'PTSansNarrowRegular';
+	color: $gray_dark;
+}
+.total-price {
+	display: flex;
+	align-items: center;
+}
+.total-price-text {
+	font: 16px 'PTSansNarrowRegular';
+	color: $black;
+	margin-left: 12px;
+	margin-right: 293px;
+}
+.total-price-value {
+	font: 30px 'PTSansNarrowRegular';
+	color: $black;
+}
+.form-link a {
+	color: $footer_links;
+	font: 16px 'PTSansNarrowRegular';
+}
+.form-name-text {
+	font: 16px 'PTSansNarrowRegular';
+	color: $gray_dark;
+}
+.form-name,.form-mail,.form-phone {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.form-name input {
+	width: 340px;
+	height: 40px;
+}
+.form-mail input {
+width: 340px;
+	height: 40px;
+}
+.form-phone input {
+width: 340px;
+	height: 40px;
+}
+.form-button1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 198px;
+	height: 40px;
+	border-radius: 5px;
+	background: $red;
+}
+.form-button1 a {
+	font: 18px 'PTSansNarrowBold';
+	color: $white;
+	text-decoration: none;
+}
+.form-button1:hover, .form-button2:hover {
+	background: $slider_active;
+}
+.form2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.form-button2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 198px;
+	height: 40px;
+	border-radius: 5px;
+	background: $green;
+}
+.form-button2 a {
+	font: 18px 'PTSansNarrowBold';
+	color: $white;
+	text-decoration: none;
+}

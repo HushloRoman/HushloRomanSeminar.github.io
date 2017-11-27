@@ -1,0 +1,47 @@
+header {
+	width: 960px;
+	height: 481px;
+	min-width: 960px;
+	margin: 0 auto;
+	background: url(../images/bg.jpg) no-repeat;
+	position: relative;
+
+}
+.header-text {
+	display: block;
+	position: absolute;
+	left: 480px;
+	top: 70px;
+	font: 35px 'PTSansNarrowBold';
+	color: $white;
+}
+.header-text p {
+	margin: 0;
+}
+.header-btn {
+	display: flex;
+	float: right;
+	justify-content: center;
+	align-items: center;
+	background: url(../images/btn.png) no-repeat;
+	width: 190px;
+	height: 51px;
+	margin-left: 20px;
+	font: 22px 'PTSansNarrowBold';
+	color: $white;
+	text-decoration: none;
+}
+.header-btn:hover {
+	background: url(../images/btn_hover.png);
+}
+.header-text h1 {
+	margin: 0;
+	font: 80px 'PTSansNarrowBold';
+	line-height: 90px;
+	color: $yellow;
+}
+.book_hat {
+	position: absolute;
+	bottom: 0;
+	left: 25px;
+}

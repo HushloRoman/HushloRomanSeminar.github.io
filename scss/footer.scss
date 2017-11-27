@@ -1,0 +1,25 @@
+footer {
+	width: 960px;
+	min-width: 960px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.footer-text {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 33px;
+}
+.footer-text p {
+	margin: 0;
+	font: 16px 'PTSansNarrowRegular';
+}
+.footer-links {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 90px;
+	padding-right: 90px;
+}
+.footer-links a {
+	color: $footer_links;
+	font: 16px 'PTSansNarrowRegular';
+}

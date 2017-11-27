@@ -1,0 +1,13 @@
+body {
+	background: $white;
+	font: 18px solid 'PTSansNarrowRegular';
+}
+#wrapper {
+	width: 960px;
+	min-width: 960px;
+	margin: 0 auto;
+}
+
+.red {
+	color: $red;
+}
